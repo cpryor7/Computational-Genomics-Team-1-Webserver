@@ -1,0 +1,12 @@
+  adding: spades_post_assembly_qc.html (deflated 67%)
+  adding: pre_assembly_qc.html (deflated 67%)
+  adding: job_log.log (deflated 92%)
+  adding: job_summary.txt (deflated 44%)
+  adding: CGT1020.gff (deflated 85%)
+  adding: CGT1020.faa (deflated 53%)
+  adding: CGT1020.fna (deflated 71%)
+  adding: ANIclustermap.png (deflated 18%)
+Fastp Runtime: 0.11 minutes, CPU Usage 9.950161139216787 %, Time (User+System): 5.04 seconds, Memory (Shared+Unshared): 0.0 bytes
+Spades Runtime: 2.76 minutes, CPU Usage 9.98413645086541 %, Time (User+System): 6 minutes and 43.75 seconds, Memory (Shared+Unshared): 0.0 bytes
+Quast Spades Runtime: 0.06 minutes, CPU Usage 10.119119890260633 %, Time (User+System): 4.11 seconds, Memory (Shared+Unshared): 0 bytes
+Prodigal Runtime: 0.02 minutes, CPU Usage 9.956026027250624 %, Time (User+System): 0.72 seconds, Memory (Shared+Unshared): 0.0 bytes

@@ -1,0 +1,8 @@
+  adding: spades_post_assembly_qc.html (deflated 67%)
+  adding: pre_assembly_qc.html (deflated 67%)
+  adding: job_log.log (deflated 92%)
+  adding: job_summary.txt (deflated 44%)
+Fastp Runtime: 0.07 minutes, CPU Usage 9.977067873002145 %, Time (User+System): 4.85 seconds, Memory (Shared+Unshared): 0.0 bytes
+Spades Runtime: 2.72 minutes, CPU Usage 9.98833212821026 %, Time (User+System): 6 minutes and 37.81 seconds, Memory (Shared+Unshared): 0.0 bytes
+Quast Spades Runtime: 0.06 minutes, CPU Usage 10.073278116552462 %, Time (User+System): 4.17 seconds, Memory (Shared+Unshared): 0 bytes
+Prodigal Runtime: 0.02 minutes, CPU Usage 9.997444797933664 %, Time (User+System): 0.7 seconds, Memory (Shared+Unshared): 0.0 bytes

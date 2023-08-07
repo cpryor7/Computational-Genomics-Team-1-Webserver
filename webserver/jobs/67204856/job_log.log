@@ -1,0 +1,21 @@
+
+  /// MultiQC 🔍 | v1.13
+
+|           multiqc | MultiQC Version v1.14 now available!
+|           multiqc | Search path : /home/team1/webserver/jobs/67204856/pre_assembly_qc
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   0% 0/0  
+|           multiqc | No analysis results found. Cleaning up..
+|           multiqc | MultiQC complete
+cp: cannot stat 'jobs/67204856/multiqc/pre_assembly_qc.html': No such file or directory
+/home/team1/miniconda3/envs/team1/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3464: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/team1/miniconda3/envs/team1/lib/python3.8/site-packages/numpy/core/_methods.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "pipeline.py", line 172, in <module>
+    run_fastp(ids, args.job_id, pathlib.Path(args.directory))
+  File "pipeline.py", line 70, in run_fastp
+    print(f"Fastp Runtime: {round((end - start)/60, 2)} minutes, CPU Usage {cpu_usage} %, Time (User+System): {humanfriendly.format_timespan(np.mean(time))}, Memory (Shared+Unshared): {humanfriendly.format_size(np.mean(memory))}")
+  File "/home/team1/miniconda3/envs/team1/lib/python3.8/site-packages/humanfriendly/__init__.py", line 448, in format_timespan
+    count = int(count)
+ValueError: cannot convert NaN to integer

@@ -1,0 +1,36 @@
+Notes for the Webserver:
+Many thanks to Chad (aka, ChatGPT)
+
+Django creates these files with each new project:
+manage.py
+settings.py
+urls.py
+wsgi.py
+asgi.py 
+__init__.py 
+
+WSGI (Web Server Gateway Interface) is a Python interface for synchronous web servers like Apache and Nginx. It defines a standard way for web servers to communicate with Python web applications and is suitable for most web applications.
+
+Django, Nginx, and Gunicorn Overview:
+
+Client <---> Nginx <---> Gunicorn <---> Django
+
+Nginx: Front-end server (communicates between client and back-end server)
+	- Nginx is also a reverse-proxy server (a type of front-end server)
+Gunicorn: Back-end server (process the data and implement application logic)
+Django: Provides the web framework containing the application code and logic
+
+How Do They Work Together?
+1. A client sends a request to access the web application.
+2. The request is first intercepted by Nginx, which acts as the frontend server.
+3. Nginx forwards the request to Gunicorn, which is running the Django application code.
+4. Gunicorn receives the request and passes it to Django.
+5. Django processes the request, generates the response, and sends it back to Gunicorn.
+6. Gunicorn receives the response from Django and sends it back to Nginx.
+7. Nginx then sends the response back to the client as if it were the original server, hiding Gunicorn and Django from the client.
+
+In this architecture, Django provides the web application code and logic, Gunicorn runs the Python code and serves incoming requests, and Nginx acts as the reverse proxy server that handles incoming traffic and forwards it to Gunicorn. Together, they form a robust and scalable infrastructure for serving Django web applications on production servers.
+
+You technically don't have to use Gunicorn as a go-between, but Nginx isn't designed to run web applications directly, so Gunicorn is useful.
+
+

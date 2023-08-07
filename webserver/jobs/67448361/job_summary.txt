@@ -1,0 +1,13 @@
+	zip warning: name not matched: jobs/67448361/parsnp_results/phylogenic_tree_img.png
+  adding: spades_post_assembly_qc.html (deflated 67%)
+  adding: pre_assembly_qc.html (deflated 67%)
+  adding: job_log.log (deflated 91%)
+  adding: job_summary.txt (deflated 39%)
+  adding: CGT1020.gff (deflated 85%)
+  adding: CGT1020.faa (deflated 53%)
+  adding: CGT1020.fna (deflated 71%)
+  adding: ANIclustermap.png (deflated 18%)
+Fastp Runtime: 0.1 minutes, CPU Usage 9.92088090623776 %, Time (User+System): 5.54 seconds, Memory (Shared+Unshared): 0.0 bytes
+Spades Runtime: 3.43 minutes, CPU Usage 9.978328068332441 %, Time (User+System): 7 minutes and 37.2 seconds, Memory (Shared+Unshared): 0.0 bytes
+Quast Spades Runtime: 0.06 minutes, CPU Usage 9.979750263065592 %, Time (User+System): 3.98 seconds, Memory (Shared+Unshared): 0 bytes
+Prodigal Runtime: 0.02 minutes, CPU Usage 9.789170778921982 %, Time (User+System): 0.71 seconds, Memory (Shared+Unshared): 0.0 bytes
