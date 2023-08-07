@@ -1,5 +1,7 @@
 # Team1-WebServer
 
+Bhavay Aggarwal, Joanne Boysen, Daniel Groves, Chloe Pryor, Charlotte Royer
+
 ## Webserver URL
 http://team1.bioapp721023.biosci.gatech.edu/  
 _*Currently access is limited to Georgia Tech networks_
